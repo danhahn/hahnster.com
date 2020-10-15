@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './images/logo.png';
 import './App.css';
-import { Heading, Pane } from 'evergreen-ui';
+import { Heading, Pane, Paragraph } from 'evergreen-ui';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           Hahnster
         </Heading>
       </header>
+      <Paragraph margin={20}>&copy;{new Date().getFullYear()} Dan Hahn</Paragraph>
     </Pane>
   );
 }
