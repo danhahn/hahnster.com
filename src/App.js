@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './images/logo.png';
 import './App.css';
-import { Heading, Pane, Paragraph } from 'evergreen-ui';
+import { Heading, Pane } from 'evergreen-ui';
 
 function App() {
   return (
