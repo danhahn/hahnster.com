@@ -1,23 +1,19 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import Logo from './components/logo';
+import React from 'react';
+import logo from './images/logo.png';
+import './App.css';
+import { Heading, Pane, Paragraph } from 'evergreen-ui';
 
-const Wrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #b0bde7;
-`;
-
-class App extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <Logo text="hahnster"/>
-      </Wrapper>
-    );
-  }
+function App() {
+  return (
+    <Pane className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <Heading is="h1" size="20" marginTop={20}>
+          Hahnster
+        </Heading>
+      </header>
+    </Pane>
+  );
 }
 
 export default App;
