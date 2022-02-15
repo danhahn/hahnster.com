@@ -2,12 +2,11 @@
 
 # Daniel Hahn
 
-danielhahn@gmail.com  
-https://github.com/danhahn
+danielhahn@gmail.com | https://github.com/danhahn
 
 ## Key Skills
 
-ReactJs, Redux, Javascript, TypeScript, Svelte, A11y, Storybook, GraphQL, Gatsby, ES6, HTML5, CSS3, SCSS/LESS, MySql, Firebase, NodeJs, Git, Scrum.
+ReactJs, Redux, Javascript, TypeScript, Svelte, A11y, Storybook, GraphQL, Gatsby, ES6, HTML5, CSS3, SCSS/LESS, Firebase, Firestore, NodeJs, Git, Scrum, MySql.
 
 ## Experience
 
@@ -70,10 +69,11 @@ New York, NY
 - Weekend HTML (4.6 out of 5 student rating)
 - Weekend Advanced HTML (4.7 out of 5 student rating)
 
-### Starwood Hotels and Resorts Worldwide - Senior Front End Developer
+### Starwood Hotels - Senior Front End Developer
 
 White Plains, NY
 4/2006-6/2009
+
 Accenture-6/2009-2/2012
 
 Starwood Hotels has over 1000 properties in over 100 countries. Starwood Hotels has nine different brands under its umbrella including Sheraton, Westin, St. Regis, W Hotels, and Four Points. Since joining Starwood in 2006 the branded websites revenue has grown from just over 1 billion dollars to well over 2 billion dollars in 2009. Starwood's brands each have their own branded website that represents each brand's values. All the branded website share a central reservations system. Starwood being a global company has its branded website translated into seven different languages. In the spring of 2009 Starwood entered into a partnership with Accenture where Starwood would move the development of the websites to Accenture. It was at this time my job was moved from Starwood to Accenture. I have remained in the same role but taking on much more responsibilities working with the offshore team.
@@ -126,23 +126,52 @@ New York NY
 <style lang="postcss">
 
   h1 {
-    @apply text-3xl m-2 text-center;
+    @apply text-3xl mt-16 text-center text-cyan-700;
+  }
+
+  h1 + p {
+    @apply text-center;
   }
 
   h2 {
-    @apply text-2xl m-6 text-center;
+    @apply text-2xl my-6  text-cyan-600;
   }
-  
+
   h3 { 
-    @apply text-xl border-b-2 pb-2 mb-2;
+    @apply text-xl border-b-2 border-cyan-500 pb-2 mb-2 text-cyan-600 ;
   }
 
   ul {
-    @apply ml-4 list-disc m-2 mb-6 grid gap-1;
+    @apply ml-4 list-disc m-2 mb-6 grid gap-2;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    @apply text-cyan-500;
   }
 
   h3 + p {
     @apply text-sm text-gray-600 text-right -mt-10 mb-6;
+  }
+
+  p {
+    @apply my-4 leading-8;
+  }
+
+  a {
+    @apply text-cyan-700;
+  }
+
+  a:hover {
+    @apply text-cyan-500;
   }
 
 </style>
