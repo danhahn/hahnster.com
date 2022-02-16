@@ -62,7 +62,9 @@
 					/>
 				</div>
 
-				<a href="/about" class="text-base font-medium text-gray-500 hover:text-gray-900"> About </a>
+				<a href="/projects" class="text-base font-medium text-gray-500 hover:text-gray-900">
+					Projects
+				</a>
 				<a href="/resume" class="text-base font-medium text-gray-500 hover:text-gray-900">
 					Resume
 				</a>
