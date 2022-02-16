@@ -126,7 +126,7 @@ New York NY
 <style lang="postcss">
 
   h1 {
-    @apply text-3xl mt-16 text-center text-cyan-700;
+    @apply  mt-16 text-center text-storm-gray-700;
   }
 
   h1 + p {
@@ -134,11 +134,11 @@ New York NY
   }
 
   h2 {
-    @apply text-2xl my-6  text-cyan-600;
+    @apply my-6  text-storm-gray-600;
   }
 
   h3 { 
-    @apply text-xl border-b-2 border-cyan-500 pb-2 mb-2 text-cyan-600 ;
+    @apply border-b-2 border-storm-gray-500 pb-2 mb-2 text-storm-gray-600 ;
   }
 
   ul {
@@ -155,7 +155,7 @@ New York NY
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
-    @apply text-cyan-500;
+    @apply text-storm-gray-500;
   }
 
   h3 + p {
@@ -167,11 +167,11 @@ New York NY
   }
 
   a {
-    @apply text-cyan-700;
+    @apply text-storm-gray-700;
   }
 
   a:hover {
-    @apply text-cyan-500;
+    @apply text-storm-gray-500;
   }
 
 </style>

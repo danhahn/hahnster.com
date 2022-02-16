@@ -6,4 +6,7 @@
 	<title>Home</title>
 </svelte:head>
 
-<h1 class="text-3xl font-bold underline text-center">Hello world!</h1>
+<h1>Hello world!</h1>
+<div class="rounded-full overflow-clip h-60 w-60">
+	<img src="./IMG_2115.jpeg" alt="" />
+</div>

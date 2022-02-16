@@ -6,20 +6,29 @@
 <div class="layout">
 	<Header />
 
-	<main>
+	<main class="lg:p-10 sm:p-20 lg:w-4/5">
 		<slot />
 	</main>
 
 	<footer>
-		<p>{new Date().getFullYear()} Dan Hahn</p>
+		<p>&copy;{new Date().getFullYear()} Dan Hahn</p>
 	</footer>
 </div>
 
 <style lang="postcss">
 	:global(body) {
-		@apply bg-gradient-to-b from-cyan-200 to-transparent bg-fixed;
+		@apply bg-gradient-to-b from-storm-gray-200 to-transparent bg-fixed;
 	}
 	.layout {
-		@apply container mx-auto;
+		@apply container mx-auto grid h-screen;
+		grid-template-rows: auto 1fr auto;
+	}
+
+	main {
+		@apply mx-auto;
+	}
+
+	footer {
+		@apply p-10 text-center border-t-2 border-t-storm-gray-600 mt-40;
 	}
 </style>
