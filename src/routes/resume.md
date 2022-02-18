@@ -10,10 +10,14 @@ ReactJs, Redux, Javascript, TypeScript, Svelte, A11y, Storybook, GraphQL, Gatsby
 
 ## Experience
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Peloton - Sr. Software Engineer
 
 New York, NY
 5/2020 - Present
+
+</div>
 
 - Peloton is a global leader in connected fitness.
 - Currently working on building out our design system and component library using Storybook, React and styled components.
@@ -23,10 +27,14 @@ New York, NY
 - Ran many lunch and learns to teach other developers why and how to ensure that future work is fully accessible.
 - Feature Lead for lunch or marking pages for new Bike and Tread pages on onepeloton.com
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Fevo - Sr. Software Engineer
 
 New York, NY
 1/2019-3/2020
+
+</div>
 
 - Fevo is a social ticketing platform that allows for a new way to sell anything. Built using React and GraphQL.
 - Update the application to ensure that all public-facing applications are ADA compliant.
@@ -34,20 +42,28 @@ New York, NY
 - Built a component library for consumer and b2b applications
 - Build new fevo.com using Gatsby
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Michael Kors - Sr. Software Engineer
 
 New York, NY
 11/2016-1/2019
+
+</div>
 
 - [michaelkors.com](michaelkors.com) - Worldwide e-commerce platform for Michael Kors Inc. Over 1 million monthly visitors and millions of dollars in sales annually in sales. Build as a headless application using ReactJs and Redux using ES6.
 - Serve as an architect working with third-party contractors.
 - Integrate translations from a vendor into the codebase.
 - Phone screen and interview potential candidates.
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### AppNexus - Sr. Software Engineer
 
 New York, NY
 1/2012-10/2016
+
+</div>
 
 AppNexus is an internet technology company that enables and optimizes the real-time sale and purchase of digital advertising. Their powerful, real-time decision platform supports core products that enable publishers to maximize yield; and marketers and agencies to harness data and machine learning to deliver intelligent and customized campaigns
 
@@ -58,10 +74,14 @@ AppNexus is an internet technology company that enables and optimizes the real-t
 - Team was made up of 5 engineers
 - Managed career growth, including quarterly reviews, weekly syncs and day to day task management.
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### School of Visual Arts - Continuing Education Professor
 
 New York, NY
 2002-2020
+
+</div>
 
 - Teach four night/weekend counting education class at SVA.
 - Introduction to Web Languages: HTML (4.6 out of 5 student rating)
@@ -69,12 +89,14 @@ New York, NY
 - Weekend HTML (4.6 out of 5 student rating)
 - Weekend Advanced HTML (4.7 out of 5 student rating)
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Starwood Hotels - Senior Front End Developer
 
-White Plains, NY
-4/2006-6/2009
-
+White Plains, NY 4/2006-6/2009  
 Accenture-6/2009-2/2012
+
+</div>
 
 Starwood Hotels has over 1000 properties in over 100 countries. Starwood Hotels has nine different brands under its umbrella including Sheraton, Westin, St. Regis, W Hotels, and Four Points. Since joining Starwood in 2006 the branded websites revenue has grown from just over 1 billion dollars to well over 2 billion dollars in 2009. Starwood's brands each have their own branded website that represents each brand's values. All the branded website share a central reservations system. Starwood being a global company has its branded website translated into seven different languages. In the spring of 2009 Starwood entered into a partnership with Accenture where Starwood would move the development of the websites to Accenture. It was at this time my job was moved from Starwood to Accenture. I have remained in the same role but taking on much more responsibilities working with the offshore team.
 
@@ -87,10 +109,14 @@ Starwood Hotels has over 1000 properties in over 100 countries. Starwood Hotels 
 - Booking Path Migration - revised the booking path for all brands within the Starwood family to use a new booking flow. Rewrote all markup and CSS.
 - W Hotels Redesign - Lead developer on for branded website redesign.
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Grey Interactive - Senior Interface Engineer
 
 New York NY
 8/2001 – 3/2006, 9/1999 – 9/2000
+
+</div>
 
 - M&M’S website
 - Built current site including setting up general structure
@@ -107,10 +133,14 @@ New York NY
 - Created a version of DHTML site navigation in 2000. (No longer in use).
 - Created mass email sent out to over 500,000 users.
 
+<div class="flex flex-col lg:flex-row lg:justify-between lg:items-center border-b-2 border-storm-gray-500 pb-2 mb-2">
+
 ### Gameloft.com - Developer
 
 New York NY
 9/2000 - 5/2001
+
+</div>
 
 - Lead developer on the gameloft.com community page.
 
@@ -138,7 +168,7 @@ New York NY
   }
 
   h3 { 
-    @apply border-b-2 border-storm-gray-500 pb-2 mb-2 text-storm-gray-600 ;
+    @apply  text-storm-gray-600 ;
   }
 
   ul {
@@ -158,10 +188,6 @@ New York NY
     @apply text-storm-gray-500;
   }
 
-  h3 + p {
-    @apply text-sm text-gray-600 text-right -mt-10 mb-6;
-  }
-
   p {
     @apply my-4 leading-8;
   }
@@ -172,6 +198,11 @@ New York NY
 
   a:hover {
     @apply text-storm-gray-500;
+  }
+
+  div.flex > p {
+    @apply m-0 text-right;
+    
   }
 
 </style>

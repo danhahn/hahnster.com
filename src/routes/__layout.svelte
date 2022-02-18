@@ -6,11 +6,11 @@
 <div class="layout">
 	<Header />
 
-	<main class="lg:p-10 sm:p-20 lg:w-4/5">
+	<main class="lg:w-4/5">
 		<slot />
 	</main>
 
-	<footer>
+	<footer class="lg:mt-40">
 		<p>&copy;{new Date().getFullYear()} Dan Hahn</p>
 	</footer>
 </div>
@@ -25,10 +25,10 @@
 	}
 
 	main {
-		@apply mx-auto;
+		@apply mx-auto p-10;
 	}
 
 	footer {
-		@apply p-10 text-center border-t-2 border-t-storm-gray-600 mt-40;
+		@apply p-10 text-center border-t-2 border-t-storm-gray-600;
 	}
 </style>
