@@ -2,7 +2,7 @@
 	"name": "hahnster.com",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev --port 5000",
+		"dev": "svelte-kit dev --port 4433",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",

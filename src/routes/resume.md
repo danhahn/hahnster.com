@@ -1,4 +1,23 @@
-<div class="max-w-4xl mx-auto">
+<script context="module" lang="ts">
+	export const prerender = true;
+</script>
+
+<svelte:head>
+
+  <title>Resume - hahnster.com</title>
+</svelte:head>
+
+<div class="max-w-4xl mx-auto relative">
+
+<a 
+  href="./resume.pdf" 
+  download="daniel-hahn"
+  class="btn absolute -top-20 right-0">
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" 
+          class="w-5 h-5 fill-white"
+        ><g><rect fill="none" height="24" width="24"/></g><g><path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z"/></g></svg>
+<span class="leading-4 mt-1">Download</span>
+</a>
 
 # Daniel Hahn
 
@@ -194,6 +213,14 @@ New York NY
 
   a {
     @apply text-storm-gray-700;
+  }
+
+  a.btn {
+    @apply text-white inline-flex gap-2 items-center bg-storm-gray-500 font-bold py-2 pr-5 pl-3 rounded  shadow;
+  }
+
+  a.btn:hover {
+    @apply text-white bg-storm-gray-700;
   }
 
   a:hover {

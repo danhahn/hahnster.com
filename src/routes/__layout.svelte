@@ -16,9 +16,6 @@
 </div>
 
 <style lang="postcss">
-	:global(body) {
-		@apply bg-gradient-to-b from-storm-gray-200 to-transparent bg-fixed;
-	}
 	.layout {
 		@apply container mx-auto grid h-screen;
 		grid-template-rows: auto 1fr auto;
@@ -29,6 +26,6 @@
 	}
 
 	footer {
-		@apply p-10 text-center border-t-2 border-t-storm-gray-600;
+		@apply p-10 text-center border-t-2 border-gray-100;
 	}
 </style>
