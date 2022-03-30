@@ -27,6 +27,13 @@ module.exports = {
 					800: '#26272b',
 					900: '#17181c'
 				}
+			},
+			gridTemplateRows: {
+				// Simple 8 row grid
+				8: 'repeat(8, minmax(0, 1fr))',
+
+				// Complex site-specific row configuration
+				column: 'auto 1fr auto'
 			}
 		}
 	},
