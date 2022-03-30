@@ -70,7 +70,7 @@ New York, NY
 
 </div>
 
-- [michaelkors.com](michaelkors.com) - Worldwide e-commerce platform for Michael Kors Inc. Over 1 million monthly visitors and millions of dollars in sales annually in sales. Build as a headless application using ReactJs and Redux using ES6.
+- [michaelkors.com](http://www.michaelkors.com) - Worldwide e-commerce platform for Michael Kors Inc. Over 1 million monthly visitors and millions of dollars in sales annually in sales. Build as a headless application using ReactJs and Redux using ES6.
 - Serve as an architect working with third-party contractors.
 - Integrate translations from a vendor into the codebase.
 - Phone screen and interview potential candidates.
