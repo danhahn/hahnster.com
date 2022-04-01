@@ -1,11 +1,7 @@
 <script lang="ts">
-	type Project = {
-		projectId: string;
-		url: { uri: string; label?: string };
-		desc: string;
-		tech: string[];
-		title: string;
-	};
+	import IconList from '$lib/iconList/IconList.svelte';
+	import type { Project } from '$lib/data/projectTypes';
+
 	export let projects: Project[] = [];
 </script>
 
@@ -28,6 +24,7 @@
 						<a href={project.url.uri} target="_blank">{project.url.label || project.url.uri}</a>
 					</div>
 				</div>
+				<IconList icons={project.tech} />
 			</div>
 		</div>
 	{/each}
